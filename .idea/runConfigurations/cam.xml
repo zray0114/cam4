@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="cam" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.zray.cam.Application" />
+    <module name="trage" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

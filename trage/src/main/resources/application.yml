@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: zss
+  main:
+    #允许循环依赖
+    allow-circular-references: true
+  #数据库配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/zray?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&allowMultiQueries=true&autoReconnect=true
+    username: root
+    password: root
+
+  swagger:
+    enable: true
+    groupName: 个人平台
+    basePackage: com.zray.cam
+    version: 1.0.0
+    title: 长安某
+    description: 长安某开发文档
+    contactName: zray
+    contactEmail:
+    contactUrl: zray-data.com
