@@ -1,6 +1,6 @@
 spring:
   application:
-    name: zss
+    name: cam
   main:
     #允许循环依赖
     allow-circular-references: true
