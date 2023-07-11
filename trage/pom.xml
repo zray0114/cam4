@@ -13,10 +13,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.ssjc.auth.adk</groupId>
-            <artifactId>zssAuthSdk</artifactId>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
@@ -124,13 +120,6 @@
             <version>1.18.22</version>
         </dependency>
 
-        <!--        https://www.liaoxuefeng.com/wiki/1252599548343744/1282386381766689    -->
-        <!--        无法与swagger一起使用-->
-        <!--        https://stackoverflow.com/questions/70036953/springboot-2-6-0-spring-fox-3-failed-to-start-bean-documentationpluginsboot-->
-        <!--        <dependency>-->
-        <!--            <groupId>org.springframework.boot</groupId>-->
-        <!--            <artifactId>spring-boot-starter-actuator</artifactId>-->
-        <!--        </dependency>-->
     </dependencies>
 
     <build>

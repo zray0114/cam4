@@ -1,3 +1,5 @@
+server:
+  port: 8014
 spring:
   application:
     name: cam
@@ -31,6 +33,6 @@ mybatis-plus:
       # 全局逻辑删除的实体字段名
       logic-delete-field: flag
       # 逻辑未删除值(默认为 0)
-      logic-not-delete-value: 0
+      logic-not-delete-value: 21
       # 逻辑已删除值(默认为 1)
-      logic-delete-value: 1
+      logic-delete-value: 22

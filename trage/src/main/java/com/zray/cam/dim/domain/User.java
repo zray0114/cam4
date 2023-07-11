@@ -2,6 +2,7 @@ package com.zray.cam.dim.domain;
 
 
 import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -14,7 +15,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class User {
-    @TableField("id")
+    @TableId("id")
     private Long id;
     @TableField("name")
     private String name;
